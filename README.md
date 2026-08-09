@@ -145,13 +145,15 @@ covid-traffic-recovery-analysis/
 ├── README.md
 │
 ├── sql/
-│   └── traffic_analysis.sql
+│   └── 01_exploration.sql
+|   └── 02_data_quality_check.sql
+|   └── 03_recovery_metrics.sql
 │
 ├── report/
 │   └── covid_traffic_analysis.pdf
 │
 └── dashboard/
-    └── dashboard_screenshot.png
+    └── Covid_Traffic.pdf
 ```
 
 원본 데이터는 저장하지 않고, 데이터 출처와 분석에 사용한 테이블 및 SQL을 repository에 정리했습니다.
